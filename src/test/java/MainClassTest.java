@@ -1,15 +1,16 @@
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class MainClassTest {
 
     @Test
     public void simpleTestFirst() {
-        Assert.assertEquals(2, 1 + 1);
+        Assertions.assertEquals(2, 1 + 1);
     }
 
     @Test
     public void simpleTestSecond() {
-        Assert.assertTrue(1 + 1 == 2);
+        Assertions.assertTrue(1 + 1 == 2, "the statement isn't true");
     }
 }

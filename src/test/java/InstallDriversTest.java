@@ -10,10 +10,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-
+@Disabled
 public class InstallDriversTest {
 
-    @Ignore
     @Test
     public void chromeSession() {
         WebDriverManager.chromedriver().setup();
@@ -21,7 +20,6 @@ public class InstallDriversTest {
         driver.get("https://www.selenium.dev/");
     }
 
-    @Ignore
     @Test
     public void firefoxSession() {
         WebDriverManager.firefoxdriver().setup();

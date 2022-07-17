@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Ignore;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -12,6 +13,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class InstallDriversTest {
 
+    @Ignore
     @Test
     public void chromeSession() {
         WebDriverManager.chromedriver().setup();
@@ -19,6 +21,7 @@ public class InstallDriversTest {
         driver.get("https://www.selenium.dev/");
     }
 
+    @Ignore
     @Test
     public void firefoxSession() {
         WebDriverManager.firefoxdriver().setup();

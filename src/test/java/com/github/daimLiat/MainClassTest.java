@@ -3,10 +3,10 @@ package com.github.daimLiat;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestMainClass {
+public class MainClassTest {
 
     @Test
-    public void TestHelloWorld() {
+    public void testHelloWorld() {
         Assertions.assertEquals("Hello, World!", MainClass.getHelloWorld());
     }
 }

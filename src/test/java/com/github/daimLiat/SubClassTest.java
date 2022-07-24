@@ -3,20 +3,20 @@ package com.github.daimLiat;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestSubClass {
+public class SubClassTest {
 
     @Test
-    public void TestSubClassFirst () {
+    public void subClassTestFirst () {
         Assertions.assertEquals(7,7);
     }
 
     @Test
-    public void TestSubClassSecond() {
+    public void subClassTestSecond() {
         Assertions.assertEquals(2, 1 + 1);
     }
 
     @Test
-    public void TestSubClassThird() {
+    public void subClassTestThird() {
         Assertions.assertTrue(1 + 1 == 2, "the statement isn't true");
     }
 }

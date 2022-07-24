@@ -3,7 +3,7 @@ package com.github.daimLiat;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestMagicBall {
+public class MagicBallTest {
 
     @Test
     public void testLucky() {

@@ -7,7 +7,7 @@ public class SubClassTest {
 
     @Test
     public void subClassTestFirst () {
-        Assertions.assertEquals(7,7);
+        Assertions.assertEquals(7,1);
     }
 
     @Test

@@ -7,7 +7,7 @@ public class SubClassTest {
 
     @Test
     public void subClassTestFirst () {
-        Assertions.assertEquals(7,1);
+        Assertions.assertEquals(7,7);
     }
 
     @Test
@@ -18,5 +18,11 @@ public class SubClassTest {
     @Test
     public void subClassTestThird() {
         Assertions.assertTrue(1 + 1 == 2, "the statement isn't true");
+    }
+
+    @Test
+    public void subClassTestFlaky() {
+        int flakyNum = (int)(Math.random() * 2 + 1);
+        Assertions.assertEquals(2, flakyNum);
     }
 }

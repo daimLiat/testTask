@@ -1,5 +1,5 @@
 #version=1
 #current_batch=1
 #total_batches=2
-#suite=daimTests
+#suite=
 com.github.daimLiat.SubClassTest

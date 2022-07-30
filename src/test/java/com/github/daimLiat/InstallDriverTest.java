@@ -10,9 +10,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+@Disabled
 public class InstallDriverTest {
 
-    @Disabled
+//    @Disabled
     @Test
     public void chromeSession() {
         WebDriverManager.chromedriver().setup();
@@ -20,7 +21,7 @@ public class InstallDriverTest {
         driver.get("https://www.jetbrains.com/teamcity/");
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void firefoxSession() {
         WebDriverManager.firefoxdriver().setup();

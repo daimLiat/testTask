@@ -12,6 +12,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class InstallDriverTest {
 
+    @Disabled
     @Test
     public void chromeSession() {
         WebDriverManager.chromedriver().setup();
@@ -19,6 +20,7 @@ public class InstallDriverTest {
         driver.get("https://www.jetbrains.com/teamcity/");
     }
 
+    @Disabled
     @Test
     public void firefoxSession() {
         WebDriverManager.firefoxdriver().setup();

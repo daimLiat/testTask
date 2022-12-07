@@ -1,6 +1,0 @@
-#version=2
-#current_batch=1
-#total_batches=5
-#suite=
-com.github.daimLiat.MagicBallTest
-com.github.daimLiat.MainClassTest

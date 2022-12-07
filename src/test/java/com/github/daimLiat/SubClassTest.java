@@ -20,6 +20,7 @@ public class SubClassTest {
         Assertions.assertTrue(1 + 1 == 2, "the statement isn't true");
     }
 
+    //tis test will is gonna be flaky
     @Test
     public void subClassTestFlaky() {
         int flakyNum = (int)(Math.random() * 2 + 1);

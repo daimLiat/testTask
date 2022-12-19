@@ -1,6 +1,8 @@
 package com.github.daimLiat;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class SubClassTest {
@@ -20,7 +22,8 @@ public class SubClassTest {
         Assertions.assertTrue(1 + 1 == 2, "the statement isn't true");
     }
 
-    //tis test will is gonna be flaky
+    //tis test is gonna be flaky
+    @Disabled("for the duty purpose")
     @Test
     public void subClassTestFlaky() {
         int flakyNum = (int)(Math.random() * 2 + 1);

@@ -23,7 +23,6 @@ public class SubClassTest {
     }
 
     //tis test is gonna be flaky
-    @Disabled("for the duty purpose")
     @Test
     public void subClassTestFlaky() {
         int flakyNum = (int)(Math.random() * 2 + 1);

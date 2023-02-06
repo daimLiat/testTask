@@ -23,6 +23,7 @@ public class SubClassTest {
     }
 
     //tis test is gonna be flaky
+    @Ignore
     @Test
     public void subClassTestFlaky() {
         int flakyNum = (int)(Math.random() * 2 + 1);

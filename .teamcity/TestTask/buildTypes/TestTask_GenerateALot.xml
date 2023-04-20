@@ -12,7 +12,7 @@
         <parameters>
           <param name="script.content"><![CDATA[for i in {1..1000};
 do
-TIMESTAMP=`date “+%%Y-%%m-%%d %%H:%%M:%%S:%%N”`
+TIMESTAMP=`gdate “+%%Y-%%m-%%d %%H:%%M:%%S:%%N”`
 echo “Writing $i $TIMESTAMP into file$i.txt”
 echo “$i $TIMESTAMP”>> file$i.txt
 done]]></param>

@@ -10,7 +10,7 @@
     <build-runners>
       <runner id="RUNNER_5" name="generate" type="simpleRunner">
         <parameters>
-          <param name="script.content"><![CDATA[for i in {1..100};
+          <param name="script.content"><![CDATA[for i in {1..1000};
 do
 TIMESTAMP=`gdate “+%%Y-%%m-%%d %%H:%%M:%%S:%%N”`
 echo “Writing $i $TIMESTAMP into file$i.txt”

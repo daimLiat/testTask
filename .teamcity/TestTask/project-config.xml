@@ -26,9 +26,9 @@
         <param name="showChanges" value="false" />
       </parameters>
     </extension>
-    <extension id="PROJECT_EXT_5" type="active_storage">
+    <extension id="PROJECT_EXT_6" type="active_storage">
       <parameters>
-        <param name="active.storage.feature.id" value="DefaultStorage" />
+        <param name="active.storage.feature.id" value="PROJECT_EXT_2" />
       </parameters>
     </extension>
   </project-extensions>

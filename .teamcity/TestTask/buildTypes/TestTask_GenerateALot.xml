@@ -4,7 +4,7 @@
   <description />
   <settings>
     <options>
-      <option name="artifactRules" value="target/*.txt" />
+      <option name="artifactRules" value="*.txt" />
     </options>
     <parameters />
     <build-runners>

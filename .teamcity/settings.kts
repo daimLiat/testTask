@@ -26,4 +26,8 @@ version = "2023.05"
 
 project {
     description = "kotlin versioned settings"
+
+    params {
+        param("coconf-param", "value")
+    }
 }

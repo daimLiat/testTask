@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.buildSteps.script
 
 /*
 The settings script is an entry point for defining a TeamCity
@@ -36,4 +37,10 @@ project {
 
 object BuildConf : BuildType({
     name = "buildConf"
+
+    steps {
+        script {
+            scriptContent = "echo 'hallo, welt'"
+        }
+    }
 })

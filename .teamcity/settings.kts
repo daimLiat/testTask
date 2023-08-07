@@ -27,7 +27,13 @@ version = "2023.05"
 project {
     description = "kotlin versioned settings"
 
+    buildType(BuildConf)
+
     params {
         param("coconf-param", "value")
     }
 }
+
+object BuildConf : BuildType({
+    name = "buildConf"
+})

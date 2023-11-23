@@ -20,13 +20,5 @@ changeBuildType(RelativeId("EmptyValues")) {
                 ))
             }
         }
-        add {
-            matrix {
-                param("dts_Param", listOf(
-                    value("value", label = "label"),
-                    value("value_main")
-                ))
-            }
-        }
     }
 }

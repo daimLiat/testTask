@@ -54,11 +54,21 @@ object EmptyValues : BuildType({
     }
 
     features {
-        matrix {
-            param("dtsParam", listOf(
-                value("value1"),
-                value("value2")
-            ))
-        }
+//        matrix {
+//            param("dtsParam", listOf(
+//                value("value1"),
+//                value("value2")
+//            ))
+//        }
+
+            matrix {
+                param("dtsParam", listOf(
+                    value("value1"),
+                    value("value2"),
+                    value(""),
+                    value(""),
+                    value("")
+                ))
+            }
     }
 })

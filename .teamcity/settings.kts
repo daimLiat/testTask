@@ -1,5 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildSteps.maven
+import jetbrains.buildServer.configs.kotlin.matrix
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 
 /*
@@ -49,6 +50,15 @@ object EmptyValues : BuildType({
 
     triggers {
         vcs {
+        }
+    }
+
+    features {
+        matrix {
+            param("dtsParam", listOf(
+                value("value1"),
+                value("value2")
+            ))
         }
     }
 })

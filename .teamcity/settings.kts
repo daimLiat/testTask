@@ -58,7 +58,8 @@ object EmptyValues : BuildType({
             param("dts_Param", listOf(
                 value("value", label = "label"),
                 value("", label = "onlyLabel"),
-                value("onlyValue")
+                value("onlyValue"),
+                value("")
             ))
         }
     }

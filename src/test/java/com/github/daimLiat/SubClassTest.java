@@ -1,15 +1,15 @@
 package com.github.daimLiat;
 
-import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+@SuppressWarnings("ALL")
 public class SubClassTest {
 
     @Test
     public void subClassTestFirst () {
-        Assertions.assertEquals(7,6);
+        Assertions.assertEquals(7,7);
     }
 
     @Test

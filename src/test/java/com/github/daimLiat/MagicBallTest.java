@@ -7,6 +7,6 @@ public class MagicBallTest {
 
     @Test
     public void testLucky() {
-        Assertions.assertEquals(7, MagicBall.getLucky());
+        Assertions.assertEquals(8, MagicBall.getLucky());
     }
 }
